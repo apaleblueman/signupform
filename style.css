@@ -1,0 +1,134 @@
+img{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:rgba(255, 227, 184, 0.985);
+    margin: 0;
+    padding: 0;
+}
+.noto-serif-jp-logo {
+  font-family: "Noto Serif JP", serif;
+  
+  font-weight:200 ;
+  font-style:normal;
+  color: white;
+}
+.noto-serif-jp-credit {
+    font-family: "Noto Serif JP", serif;
+    font-weight:100 ;
+    font-style:normal;
+    color: white;
+
+}
+.noto-serif-jp-form {
+    font-family: "Noto Serif JP", serif;
+    font-weight:500;
+    font-style:normal;
+    color: black;
+  }
+.credit>a{
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content:flex-start;
+    padding: 0;
+    margin: 0;
+    gap: 100px;
+}
+.img-container{
+    /* border:solid 2px red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;   
+}
+.credit{
+    margin-top: 600px;
+    position: absolute;
+    font-size: x-small;
+}
+.form-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+    
+}
+.logo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.538);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: "100%";
+    padding: 0;
+    
+    margin-bottom: 300px;
+
+}
+.logo>img{
+    height: auto;
+    width: 20%;   
+}
+.form{
+    background-color:rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 5px 10px 5px 10px #888888;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+}
+input:invalid{
+    border: solid 1px red;
+    border-radius: 2px;
+}
+input:focus{
+    border: solid 1px blue;
+    border-radius: 2px;
+}
+input{
+    border: solid 1px black;
+
+    border-radius: 2px;
+}
+table{
+    margin: 20px;
+}
+td{
+    padding: 10px 30px 10px 30px;
+}
+
+.signup{
+    margin-left: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 8px;
+    width: 30%;
+    background-color: #ff8e15;
+    color: whitesmoke;
+    border: none;
+    border-radius: 20px;
+
+}
+button:hover{
+    color: #ff8e15;
+    background-color: white;
+}
+a{
+    
+    color: #6d4316;
+}
+.login{
+    font-size: x-small;
+    margin-top: -20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
